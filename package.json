@@ -1,6 +1,6 @@
 {
   "name": "next-server",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A simple CLI to easily run npm run dev, build, or start with custom PORT option for many next.js project",
   "main": "index.js",
   "bin": {
