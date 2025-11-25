@@ -1,4 +1,4 @@
-# `next-server`
+# `next-run`
 
 A simple CLI tool to quickly run `npm run dev`, `npm run build`, or `npm run start` in your Next.js projects—with optional custom **PORT** support.
 
@@ -6,7 +6,7 @@ A simple CLI tool to quickly run `npm run dev`, `npm run build`, or `npm run sta
 
 * Choose your mode: **dev**, **build**, or **start**.
 * Optionally specify a custom **PORT** before running the command.
-* Skip typing full `npm run ...` commands—just run `next-server` and go!
+* Skip typing full `npm run ...` commands—just run `next-run` and go!
 
 ## 📌 Requirements
 
@@ -23,7 +23,7 @@ A simple CLI tool to quickly run `npm run dev`, `npm run build`, or `npm run sta
 
 ## 📦 Prerequisites
 
-Your project must already have **Next.js** installed, as `next-server` wraps the standard Next.js CLI (`next dev`, `next build`, `next start`).
+Your project must already have **Next.js** installed, as `next-run` wraps the standard Next.js CLI (`next dev`, `next build`, `next start`).
 
 To create a new Next.js project:
 
@@ -45,25 +45,17 @@ Ensure your `package.json` includes the standard scripts:
 
 ## 🚀 Installation & Usage
 
-### Option 1: Install globally (recommended for frequent use)
+Install globally to use it easily anywhere:
 
 ```bash
-npm install -g https://github.com/syam-fh/next-server.git
+npm install -g next-run
 ```
 
 Then, from any Next.js project directory:
 
 ```bash
-next-server
+next-run
 ```
-
-### Option 2: Run directly with `npx` (no install required)
-
-```bash
-npx syam-fh/next-server
-```
-
-> 💡 `npx` handles temporary dependency installation automatically, so no extra steps needed.
 
 ---
 

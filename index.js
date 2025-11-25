@@ -100,27 +100,27 @@ function openBrowser(url) {
 
 function showHelp() {
   console.log(`
-${chalk.bold('next-server')} – CLI tool to manage Next.js development and production workflows.
+${chalk.bold('next-run')} – CLI tool to manage Next.js development and production workflows.
 
 ${chalk.bold('Interactive mode (default):')}
-  next-server                → Display interactive menu
+  next-run                → Display interactive menu
 
 ${chalk.bold('Non-interactive mode:')}
-  next-server --dev [--host <addr>] [--port <num>]
-  next-server --build
-  next-server --start
+  next-run --dev [--host <addr>] [--port <num>]
+  next-run --build
+  next-run --start
 
 ${chalk.bold('Host options:')}
   --host 127.0.0.1    → Local only (secure)
   --host 0.0.0.0      → Network accessible (use cautiously)
 
 ${chalk.bold('Examples:')}
-  next-server --dev --host 127.0.0.1 --port 4000
-  next-server --dev --host 0.0.0.0
+  next-run --dev --host 127.0.0.1 --port 4000
+  next-run --dev --host 0.0.0.0
 
 ${chalk.bold('Other:')}
-  next-server --help    → Show help
-  next-server --version → Show version
+  next-run --help    → Show help
+  next-run --version → Show version
 
 ${chalk.dim('Note: Auto-opens browser for dev server. Uses local Next.js via npx.')}
 `)
